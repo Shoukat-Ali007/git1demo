@@ -14,9 +14,12 @@ class _demoScreenState extends State<demoScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Container(width: 200,
-        height: 200,
-        color: Colors.blue,),
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(width: 200,
+          height: 200,
+          color: Colors.blue,),
+        ),
       ),
     );
   }
